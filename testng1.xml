@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="com.nityaobject.roombooking.NewTestRoom">
+   <!--   <methods>
+    <include name="testingBookingPositive"/>
+    <include name="testingBookingNegative"/>   
+    <include name="testingOfFindBookingByRoomIdPositive"/>   
+	<include name="testingOfFindBookingByRoomIdNegative"/>  
+	<include name="testingOfFindBookingByCustomerIdPositive"/> 
+	<include name="testingOfFindBookingByCustomerIdNegative"/>    
+	<include name="testingCalculateAmountBookingPositive"/>         
+    <include name="testingCalculateAmountBookingNegative"/>     
+    <include name="testCancelBookingPositive"/>        /
+   	<include name="testCancelBookingNegative"/>         
+    <include name="testCancelRoomforARangeOfdatesUsingObjectPositive"/>   
+ 	<include name="testCancelRoomforARangeOfdatesUsingObjectNegative"/>  
+    </methods>-->
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
